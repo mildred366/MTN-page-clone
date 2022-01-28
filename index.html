@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTN NIN Verification</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="./assets/mtnlogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <div>
+        <div class="container">
+            <div class="empty"></div>
+            <div class="wrapper">
+                <img src="./assets/mtnlogo.png" alt="mtnlogo" class = "center"/>
+        
+            <h5>Verify your NIN Details</h5>
+            
+            <div>
+                <form id="infoForm">
+                <label>
+                    Select Type<span> *</span> 
+                    <select class="labels">
+                        <option>Select</option>
+                        <option>NIN</option>
+                        <option>VNIN</option>
+                    </select>
+                </label>
+
+                <label>
+                    Phone Number<span> *</span>
+                    <input type="number" class="labels" required placeholder="08*******">
+                </label>
+        
+                <label>
+                     National Identity Number[NIN]<span> *</span>
+                    <input type="number" class="labels" required>
+                </label>
+        
+            </div>
+                 <div class="btns">
+                        <button id = "goBtn">Go Back</button>
+                        <button id = "nextBtn">Next</button>
+                 </div>
+                    <hr />
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

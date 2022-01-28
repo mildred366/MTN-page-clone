@@ -1,0 +1,96 @@
+ *{
+  box-sizing: border-box;
+}
+  
+  
+  span{
+    color: red;
+    font-weight: 500;
+}
+
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 20px 0px 0px 0px;
+}
+
+  .container{
+      box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
+      background-color: white;
+      font-family: 'Josefin Sans', sans-serif;
+      width:560px; 
+      margin:5px auto;
+}
+
+  .wrapper{
+    padding:2rem;
+    line-height: 2rem;
+}
+
+  #nextBtn{
+    border: unset;
+    background:rgba(255, 196, 0, 0.979);
+    color: #fff;
+    padding: 0.5rem 0.6rem;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+  body {
+    background-image: url('https://yellostar.ng/nin/assets/image-from-rawpixel-id-2044837-jpeg.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-bottom: 50px;
+}
+
+ #infoForm label {
+    display:block;
+    /* background-color: red; */
+    width: 100%;
+    padding:10px 0px;
+    margin-bottom: 10px;
+}
+
+ #infoForm input{
+    display: flex;
+}
+
+ .labels{
+    height:3rem;
+    width: 100%;
+    /* padding: auto; */
+    /* box-shadow: 0px 0px 2px 2px rgb(141, 224, 251); */
+    font-family: 'Josefin Sans', sans-serif;
+    outline: none;
+}
+
+ #goBtn{
+    background:#fff;
+    color:black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    align-items: flex-end;
+    border: 0.5px solid black;
+    margin-right: 370px;
+}
+
+  .empty{
+    background-color: rgba(255, 196, 0, 0.979);
+    height: 0.5rem;
+}
+
+
+ hr{
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+ 
+ h5{
+   margin-bottom: -15px;
+   font-weight: 400;
+   font-size: 20px;
+}
+  
